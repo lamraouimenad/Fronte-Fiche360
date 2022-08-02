@@ -1,0 +1,96 @@
+
+html {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 125%;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--blue-grey-900);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--blue-grey-100);
+}
+
+main {
+  max-width: max-content;
+  padding: 1.5em;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top:60px;
+  margin-right: 20px;
+  margin-left:20px
+}
+.calendar-title{
+  font-weight: 600;
+  font-size: 21px;
+}
+/* For the month*/
+.month-indicator {
+  color: var(--blue-grey-700);
+  text-align: start;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+ /*CSS grid used for the dates*/
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+}
+
+/* Styles for the weekday/weekend header*/
+.day-of-week {
+  margin-top: 1.25em;
+  font-size: 18px;
+  color: red;
+}
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: var(--blue-grey-400);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+/* Dates */
+.date-grid {
+  margin-top: 0.5em;
+}
+
+/* Positioning the first day */
+.date-grid button:first-child {
+  grid-column: 6;
+}
+
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 4.5ch;
+  height: 4.5ch;
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--blue-grey-600);
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: var(--blue-grey-050);
+  color: var(--blue-grey-700);
+}
+
+.date-grid button:active,
+.date-grid button.is-selected {
+  background-color: var(--teal-100);
+  color: var(--teal-900);
+}
+
+.logo{
+  height: auto;
+  width: 160px;
+}

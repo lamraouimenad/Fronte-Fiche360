@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+:root {
+  --main-bg-color: #6fa0e9;
+  --grey:#eaebec;
+  --text-color:#072f6b;
+
+  --teal-050: #effcf6;
+  --teal-100: #c6f7e2;
+  --teal-200: #8eedc7;
+  --teal-300: #65d6ad;
+  --teal-400: #3ebd93;
+  --teal-500: #27ab83;
+  --teal-600: #199473;
+  --teal-700: #147d64;
+  --teal-800: #0c6b58;
+  --teal-900: #014d40;
+
+  --blue-grey-050: #f0f4f8;
+  --blue-grey-100: #d9e2ec;
+  --blue-grey-200: #bcccdc;
+  --blue-grey-300: #9fb3c8;
+  --blue-grey-400: #829ab1;
+  --blue-grey-500: #627d98;
+  --blue-grey-600: #486581;
+  --blue-grey-700: #334e68;
+  --blue-grey-800: #243b53;
+  --blue-grey-900: #102a43;
+}
+
+html, body {
+   height: 100%;
+  color: #05498d; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.label{
+  background-color:#6fa0e9;
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 4px;
+
+
+}
+
+.labelWrapper{
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 14px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}

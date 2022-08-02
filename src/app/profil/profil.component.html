@@ -1,0 +1,48 @@
+<div class="imageProfil">
+  <img class="imageProfil2" src="assets/images/photo.jpg">
+</div>
+
+<div class="profilContainer" *ngFor="let collaboratteur of collaboratteurs">
+
+  <h3>Solde RTT : {{collaboratteur.solde_rtt}}</h3>
+  <h3>Statut :{{collaboratteur.statut}}</h3>
+  <div>
+    <i class="fa fa-paper-plane"></i>{{collaboratteur.email}}<br>
+    <i class="fa fa-mobile fa-2x"></i> {{collaboratteur.telephone}}<br><br><br>
+    <i class="fa fa-download fa-2x" style="padding-left: 50px;
+    "></i>&nbsp;&nbsp;
+    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+  </div>
+
+</div>
+
+<div class="profilTitle">
+  <img class="profilTitleImg" src="assets/images/1.jpg">
+  <h1 style="padding-left: 15px;">Pour faire connaissance</h1>
+</div>
+
+<div class="profilContainer2">
+  <div>
+    <img src="assets/images/2.jpg" width="208" height="90">
+  </div>
+
+  <div class="couleurText">
+    <h3 class="couleurText">Statut : Mission Client</h3>
+    <h3 class="couleurText"> Qu est ce que le numérique responsable ?</h3>
+    <p class="couleurText">Chacun à son échelle peut avoir une
+      utilisation plus raisonnable </p>
+
+  </div>
+</div>
+
+<div class="profilContainer2">
+  <div>
+    <img src="assets/images/3.jpg" width="208" height="90">
+  </div>
+
+  <div class="couleurText">
+    <h3 class="couleurText">Quizz</h3>
+    <h3 class="couleurText"> Années 2000</h3>
+    <p class="couleurText">Mélanie a obtenu un score de 95% ! Saurez vous la battre ?</p>
+  </div>
+</div>
