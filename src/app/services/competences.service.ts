@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 })
 export class CompetencesService {
 
-  private  baseUrl="http://localhost:8089/fiche360/agence/1";
+  private  baseUrl="http://localhost:8088/fiche360/agence/1";
 
 
   constructor( private httpClient:HttpClient) { }
